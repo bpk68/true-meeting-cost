@@ -56,9 +56,25 @@ export const Stopwatch = () => {
     setRunning(false);
   };
 
+  const salary = 60000;
+  const days = 260;
+  const hours = 7.5;
+  const minutes = 60;
+  const seconds = 60;
+  const milliseconds = 1000;
+
   return (
     <div style={{ textAlign: 'center' }}>
       <Label>{time(lapse)}</Label>
+      <h2>
+        {new Intl.NumberFormat('en-GB', {
+          style: 'currency',
+          currency: 'GBP',
+        }).format(
+          (salary / days / hours / minutes / seconds / milliseconds) *
+            parseInt(lapse)
+        )}
+      </h2>
       <Button onClick={handleRunClick}>
         {running ? 'Stop' : 'Start'}
       </Button>
