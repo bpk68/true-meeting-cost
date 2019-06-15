@@ -4,7 +4,8 @@
   "description": "A project to help people understand the true cost of their meetings.",
   "scripts": {
     "dev": "gatsby develop",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "build": "gatsby build"
   },
   "husky": {
     "hooks": {
