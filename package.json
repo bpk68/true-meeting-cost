@@ -1,0 +1,24 @@
+{
+  "name": "true-meeting-cost",
+  "version": "0.0.1",
+  "description": "A project to help people understand the true cost of their meetings.",
+  "scripts": {
+    "dev": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpk68/true-meeting-cost.git"
+  },
+  "keywords": [],
+  "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpk68/true-meeting-cost/issues"
+  },
+  "homepage": "https://github.com/bpk68/true-meeting-cost#readme",
+  "dependencies": {
+    "gatsby": "2.9.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
