@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import styled from "styled-components";
+import React, { useEffect, useRef, useState } from 'react';
+import styled from 'styled-components';
 
 const Button = styled.button`
   font-size: 2rem;
@@ -57,9 +57,11 @@ export const Stopwatch = () => {
   };
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: 'center' }}>
       <Label>{time(lapse)}</Label>
-      <Button onClick={handleRunClick}>{running ? "Stop" : "Start"}</Button>
+      <Button onClick={handleRunClick}>
+        {running ? 'Stop' : 'Start'}
+      </Button>
       <Button onClick={handleClearClick}>Clear</Button>
     </div>
   );
