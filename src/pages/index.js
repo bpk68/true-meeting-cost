@@ -1,5 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { PayReckoner } from '../components/PayReckoner';
+import { Stopwatch } from '../components/Stopwatch';
 
 export default () => {
-  return <>yoyoyoyoy</>
-}
+  return (
+    <>
+      <Stopwatch></Stopwatch>
+      <PayReckoner></PayReckoner>
+    </>
+  );
+};
