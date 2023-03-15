@@ -1,7 +1,5 @@
 <script>
-	import PayReckoner from '$lib/components/pay-reckoner.svelte';
-	import Stopwatch from '$lib/components/stopwatch.svelte';
+	import MeetingCost from '$lib/components/meeting-cost.svelte';
 </script>
 
-<Stopwatch />
-<PayReckoner />
+<MeetingCost />
